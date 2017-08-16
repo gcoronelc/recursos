@@ -1,0 +1,107 @@
+html{
+  font-size: 12px;
+}
+body{
+  background-color:  #D8D8D8;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #E6E6E6;
+  margin: 0;
+}
+
+
+h1{
+  color: #086A87;
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: medium solid #086A87;
+}
+
+h2{
+  color: #0B4C5F;
+  font-size: 2rem;
+}
+
+a:link, a:visited{
+  color: #2A6356;
+}
+
+legend:hover{
+  color: #045FB4;
+}
+
+legend:active{
+  color: #0000FF;
+}
+
+input:focus{
+  color: #2E64FE;
+}
+
+.egcc_page{
+  width: 900px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #6E6E6E;
+}
+
+.egcc_header{
+  width: 880px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  color: #2E2E2E;
+}
+
+.egcc_nav{
+  width: 880px;
+  padding: 10px;
+  background-color: #E6E6E6;
+  color: #2E2E2E;
+}
+
+.egcc_content{
+  width: 880px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  color: #2E2E2E;
+}
+
+.egcc_footer{
+  width: 880px;
+  padding: 10px;
+  background-color: #E6E6E6;
+  color: #2A1B0A;
+}
+
+
+/* Estilos para tablas */
+
+.egcc_table>tbody>tr:nth-child(odd)>td,
+.egcc_table>tbody>tr:nth-child(odd)>th {
+  background-color: #E6E6E6;
+  color: #424242;
+}
+
+.egcc_table>tbody>tr:nth-child(even)>td,
+.egcc_table>tbody>tr:nth-child(even)>th {
+  background-color: #CEF6F5;
+  color: #424242;
+}
+
+.egcc_table>tbody>tr:hover>td,
+.egcc_table>tbody>tr:hover>th {
+  background-color: #808080;
+  color: #FFF68F;
+  cursor: pointer;
+}
+
+.egcc_table>thead>tr>th {
+   background-color: #086A87;
+   color: #CEF6F5;
+}
+
+/* Estilo para los parrafos */
+
+.egcc_par::first-letter{
+  font-size: 2rem;
+  color: #0A122A;
+}
